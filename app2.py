@@ -407,7 +407,7 @@ if pressedButton and bond_name:
                 showactive=False,
                 direction="right",
                 bordercolor="white",
-                x=0.6,
+                x=0.7,
                 y=0.9,
                 pad=dict(r=10, t=10),
                 buttons=[
