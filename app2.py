@@ -368,13 +368,13 @@ if pressedButton and bond_name:
         ),
         yaxis2=dict(
             title="Stock Price",
-            domain=[0.0, 0.6],  # Ensure the same vertical domain
+            domain=[0.0, 0.7],  # Ensure the same vertical domain
             anchor="x2",
         ),
         yaxis3=dict(
             title="Effective Premium (%)",
             tickformat=".0%",
-            domain=[0.0, 0.6],  # Match the vertical domain of Stock Price
+            domain=[0.0, 0.7],  # Match the vertical domain of Stock Price
             anchor="x3",
         ),
         font=dict(color="white"),
